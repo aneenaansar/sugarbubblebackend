@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sugar bubble</title>
+    <link rel="stylesheet" href="{% static 'style2.css' %}">
+    <script src="https://kit.fontawesome.com/9941501173.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="container">
+        <span class="span" id="span1">
+            <i class="fa-solid fa-bars" style="color: #ff5900;"></i>
+        </span>
+        <div class="follow">
+            <h1 class="manu">MENU</h1>
+            <nav id="list" class="muff">
+                <ul>
+                    <li><a href="./index2.html">Cakes</a></li>
+                    <li><a href="">Muffins</a></li>
+                    <li><a href="">Cup Cakes</a></li>
+                    <li><a href="">Pop Sickles</a></li>
+                </ul>
+            </nav>
+            <i class="fa-solid fa-xmark"></i>
+            <p class="us">follow us on</p>
+            <div class="i-5">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+        <h1 class="h"><a href="{% url 'web:index' %}" >Sugar Bubble</a></h1>
+        <nav id="sty-le">
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Custom Cake</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="ic">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.19 0H5.81C2.17 0 0 2.17 0 5.81V14.18C0 17.83 2.17 20 5.81 20H14.18C17.82 20 19.99 17.83 19.99 14.19V5.81C20 2.17 17.83 0 14.19 0ZM10 13.88C7.86 13.88 6.12 12.14 6.12 10C6.12 7.86 7.86 6.12 10 6.12C12.14 6.12 13.88 7.86 13.88 10C13.88 12.14 12.14 13.88 10 13.88ZM15.92 4.88C15.87 5 15.8 5.11 15.71 5.21C15.61 5.3 15.5 5.37 15.38 5.42C15.26 5.47 15.13 5.5 15 5.5C14.73 5.5 14.48 5.4 14.29 5.21C14.2 5.11 14.13 5 14.08 4.88C14.03 4.76 14 4.63 14 4.5C14 4.37 14.03 4.24 14.08 4.12C14.13 3.99 14.2 3.89 14.29 3.79C14.52 3.56 14.87 3.45 15.19 3.52C15.26 3.53 15.32 3.55 15.38 3.58C15.44 3.6 15.5 3.63 15.56 3.67C15.61 3.7 15.66 3.75 15.71 3.79C15.8 3.89 15.87 3.99 15.92 4.12C15.97 4.24 16 4.37 16 4.5C16 4.63 15.97 4.76 15.92 4.88Z" fill="#FF6B00"/>
+            </svg>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 14.19C20 17.83 17.83 20 14.19 20H13C12.45 20 12 19.55 12 19V13.23C12 12.96 12.22 12.73 12.49 12.73L14.25 12.7C14.39 12.69 14.51 12.59 14.54 12.45L14.89 10.54C14.92 10.36 14.78 10.19 14.59 10.19L12.46 10.22C12.18 10.22 11.96 10 11.95 9.73001L11.91 7.28C11.91 7.12 12.04 6.98001 12.21 6.98001L14.61 6.94C14.78 6.94 14.91 6.81001 14.91 6.64001L14.87 4.23999C14.87 4.06999 14.74 3.94 14.57 3.94L11.87 3.98001C10.21 4.01001 8.89001 5.37 8.92001 7.03L8.97 9.78C8.98 10.06 8.76001 10.28 8.48001 10.29L7.28 10.31C7.11 10.31 6.98001 10.44 6.98001 10.61L7.01001 12.51C7.01001 12.68 7.14 12.81 7.31 12.81L8.51001 12.79C8.79001 12.79 9.00999 13.01 9.01999 13.28L9.10999 18.98C9.11999 19.54 8.66999 20 8.10999 20H5.81C2.17 20 0 17.83 0 14.18V5.81C0 2.17 2.17 0 5.81 0H14.19C17.83 0 20 2.17 20 5.81V14.19Z" fill="#FF6B00"/>
+             </svg>
+        </div>
+    </header>
+
+    <!-- sort by popularity -->
+    
+    <section class="container aneena">
+        <div class="aneena">
+            <div class=" f-cake filter">
+                <div class="c">
+                    <h2>cake</h2>
+                    <div>
+                        <i class="fa-solid fa-angle-down" style="color: #ff8800;"></i>
+                    </div>
+                </div>
+                <div class="c">
+                    <div>
+                        <i class="fa-sharp fa-solid fa-filter" style="color: #f44a01;"></i>
+                    </div>
+                    <h2>filter</h2> 
+                </div>
+            </div>
+            <div class="flex">
+                <div class="sort lineh">
+                    <h1>Sort by popularity</h1>
+                    <div>
+                        <i class="fa-solid fa-angle-down" style="color: #000000;"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="lineh">
+                    <h1 class="cat">Category</h1>
+                    <div class="ca-ke">
+                        <h1>Cake</h1>
+                        <div>
+                            <i class="fa-solid fa-angle-down" style="color: #ff8800;"></i>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="hh lineh">
+                        <h4>Filter by price</h4>
+                    </div>
+                    <div class="sil">
+                        <div class="pro"></div>
+                    </div>
+                    <h2>Price:₹80 ~ ₹2000</h2>
+                    <div class="rightbox">
+                        <input type="checkbox" name="In-stock" id="In-stock" >
+                        <label for="In-stock">In stock</label>
+                    </div>
+                </div>
+            
+                    <div class="cake">
+                        <div>
+                            <img src="{% static 'image/Rectangle 6.png' %}" alt="">
+                            <h1 class="margin">₹ 540</h1>
+                            <p class="bottom">Butterscotch Pumpkin Cake</p>
+                        </div>
+                        <div>
+                            <img src="{% static 'image/Rectangle 6-1.png' %}" alt="">
+                            <h1 class="margin">₹ 540</h1>
+                            <p class="bottom">Butterscotch Bundt Cake</p>
+                        </div>
+                        <div>
+                            <img src="{% static 'image/Rectangle 6.7.png' %}" alt="">
+                            <h1 class="margin">₹ 540</h1>
+                            <p class="bottom">Butterscotch Caramel Cake</p>
+                        </div>
+                    
+                    
+                        <div>
+                                <img src="{% static 'image/Rectangle 6-2.png' %}" alt="">
+                            <h1 class="margin">₹ 540</h1>
+                            <p class="bottom">Butterscotch Banana Cake</p>
+                        </div>
+                        <div>
+                            <img src="{% static 'image/Rectangle 6-3.png' %}" alt="">
+                            <h1 class="margin">₹ 540</h1>
+                            <p class="bottom">Butterscotch Chocolate Cake</p>
+                        </div>
+                        <div>
+                            <img src="{% static 'image/Rectangle 6-4.png' %}" alt="">
+                            <h1 class="margin">₹ 540</h1>
+                            <p class="bottom">Butterscotch Coffee Cake</p>
+                        </div>
+                
+                
+                        <div>
+                        <img src="{% static 'image/Rectangle 6-5.png' %}" alt=""> 
+                        <h1 class="margin">₹ 540</h1>
+                        <p class="bottom">Butterscotch Bliss Cake</p>
+                        </div>
+                        <div>
+                            <img src="{% static 'image/Rectangle 6-6.png' %}" alt="">
+                            <h1 class="margin">₹ 540</h1>
+                            <p class="bottom">Chocolate Fudge Cake</p>
+                        </div>
+                    </div>
+            </div>
+
+
+        </div>
+    </section>
+    <footer>
+        <div  class="bubble container">
+            <div class="none">
+                <h1 class="col">Sugar Bubble</h1>
+                <p class="baking">Baking your<br> dreams come true.</p>
+                <div>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.19 0H5.81C2.17 0 0 2.17 0 5.81V14.18C0 17.83 2.17 20 5.81 20H14.18C17.82 20 19.99 17.83 19.99 14.19V5.81C20 2.17 17.83 0 14.19 0ZM10 13.88C7.86 13.88 6.12 12.14 6.12 10C6.12 7.86 7.86 6.12 10 6.12C12.14 6.12 13.88 7.86 13.88 10C13.88 12.14 12.14 13.88 10 13.88ZM15.92 4.88C15.87 5 15.8 5.11 15.71 5.21C15.61 5.3 15.5 5.37 15.38 5.42C15.26 5.47 15.13 5.5 15 5.5C14.73 5.5 14.48 5.4 14.29 5.21C14.2 5.11 14.13 5 14.08 4.88C14.03 4.76 14 4.63 14 4.5C14 4.37 14.03 4.24 14.08 4.12C14.13 3.99 14.2 3.89 14.29 3.79C14.52 3.56 14.87 3.45 15.19 3.52C15.26 3.53 15.32 3.55 15.38 3.58C15.44 3.6 15.5 3.63 15.56 3.67C15.61 3.7 15.66 3.75 15.71 3.79C15.8 3.89 15.87 3.99 15.92 4.12C15.97 4.24 16 4.37 16 4.5C16 4.63 15.97 4.76 15.92 4.88Z" fill="#FF6B00"/>
+                    </svg>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 14.19C20 17.83 17.83 20 14.19 20H13C12.45 20 12 19.55 12 19V13.23C12 12.96 12.22 12.73 12.49 12.73L14.25 12.7C14.39 12.69 14.51 12.59 14.54 12.45L14.89 10.54C14.92 10.36 14.78 10.19 14.59 10.19L12.46 10.22C12.18 10.22 11.96 10 11.95 9.73001L11.91 7.28C11.91 7.12 12.04 6.98001 12.21 6.98001L14.61 6.94C14.78 6.94 14.91 6.81001 14.91 6.64001L14.87 4.23999C14.87 4.06999 14.74 3.94 14.57 3.94L11.87 3.98001C10.21 4.01001 8.89001 5.37 8.92001 7.03L8.97 9.78C8.98 10.06 8.76001 10.28 8.48001 10.29L7.28 10.31C7.11 10.31 6.98001 10.44 6.98001 10.61L7.01001 12.51C7.01001 12.68 7.14 12.81 7.31 12.81L8.51001 12.79C8.79001 12.79 9.00999 13.01 9.01999 13.28L9.10999 18.98C9.11999 19.54 8.66999 20 8.10999 20H5.81C2.17 20 0 17.83 0 14.18V5.81C0 2.17 2.17 0 5.81 0H14.19C17.83 0 20 2.17 20 5.81V14.19Z" fill="#FF6B00"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="fallow">
+                <h1>follow us on</h1>
+                <div class="i-5">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+            <div class="none">
+                <h2 class="get">Get in touch</h2>
+                <p class="qof">Question or feedback ? We'd love to here from you</p>
+                <div class="textmail">
+                    <input type="text" class="mail" placeholder="email">
+                    <div>
+                        <i class="fa-solid fa-paper-plane" style="color: #ff7b00;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="none">
+                <h1 class="link"><strong>Quick Links</strong></h1>
+                <nav class="foot">
+                    <ul>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

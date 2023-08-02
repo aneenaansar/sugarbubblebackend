@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sugar bubble</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <script src="https://kit.fontawesome.com/9941501173.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9941501173.js" crossorigin="anonymous"></script>
+
+    
+</head>
+<body>
+    <header class="container">
+        <span class="span" id="span1">
+            <i class="fa-solid fa-bars" style="color: #ff5900;" id="baricon"></i>
+        </span>
+        <div class="follow" id="follow1">
+            <h1 class="manu">MENU</h1>
+            <nav id="list" class="muff">
+                <ul>
+                    <li><a href="{% url 'web:index' %}">Cakes</a></li>
+                    <li><a href="">Muffins</a></li>
+                    <li><a href="">Cup Cakes</a></li>
+                    <li><a href="">Pop Sickles</a></li>
+                </ul>
+            </nav>
+            <i id="x-mark" class="x-none fa-solid fa-xmark"></i>
+            <p class="us">follow us on</p>
+            <div class="i-5">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+        <h1 class="h">Sugar Bubble</h1>
+        <nav id="sty-le">
+            <ul>
+                <li><a href="#"  id="menu">Menu</a></li>
+                <li><a href="#">Custom Cake</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <nav id="icon5" class="jav">
+            <ul>
+                <li><a href="{% url 'web:main' %}">Cakes</a></li>
+                <li><a href="">Muffins</a></li>
+                <li><a href="">Cup Cakes</a></li>
+                <li><a href="">Pop Sickles</a></li>
+            </ul>
+        </nav>
+        <script src="{% static 'script.js' %}"></script>
+        <div class="ic">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.19 0H5.81C2.17 0 0 2.17 0 5.81V14.18C0 17.83 2.17 20 5.81 20H14.18C17.82 20 19.99 17.83 19.99 14.19V5.81C20 2.17 17.83 0 14.19 0ZM10 13.88C7.86 13.88 6.12 12.14 6.12 10C6.12 7.86 7.86 6.12 10 6.12C12.14 6.12 13.88 7.86 13.88 10C13.88 12.14 12.14 13.88 10 13.88ZM15.92 4.88C15.87 5 15.8 5.11 15.71 5.21C15.61 5.3 15.5 5.37 15.38 5.42C15.26 5.47 15.13 5.5 15 5.5C14.73 5.5 14.48 5.4 14.29 5.21C14.2 5.11 14.13 5 14.08 4.88C14.03 4.76 14 4.63 14 4.5C14 4.37 14.03 4.24 14.08 4.12C14.13 3.99 14.2 3.89 14.29 3.79C14.52 3.56 14.87 3.45 15.19 3.52C15.26 3.53 15.32 3.55 15.38 3.58C15.44 3.6 15.5 3.63 15.56 3.67C15.61 3.7 15.66 3.75 15.71 3.79C15.8 3.89 15.87 3.99 15.92 4.12C15.97 4.24 16 4.37 16 4.5C16 4.63 15.97 4.76 15.92 4.88Z" fill="#FF6B00"/>
+            </svg>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 14.19C20 17.83 17.83 20 14.19 20H13C12.45 20 12 19.55 12 19V13.23C12 12.96 12.22 12.73 12.49 12.73L14.25 12.7C14.39 12.69 14.51 12.59 14.54 12.45L14.89 10.54C14.92 10.36 14.78 10.19 14.59 10.19L12.46 10.22C12.18 10.22 11.96 10 11.95 9.73001L11.91 7.28C11.91 7.12 12.04 6.98001 12.21 6.98001L14.61 6.94C14.78 6.94 14.91 6.81001 14.91 6.64001L14.87 4.23999C14.87 4.06999 14.74 3.94 14.57 3.94L11.87 3.98001C10.21 4.01001 8.89001 5.37 8.92001 7.03L8.97 9.78C8.98 10.06 8.76001 10.28 8.48001 10.29L7.28 10.31C7.11 10.31 6.98001 10.44 6.98001 10.61L7.01001 12.51C7.01001 12.68 7.14 12.81 7.31 12.81L8.51001 12.79C8.79001 12.79 9.00999 13.01 9.01999 13.28L9.10999 18.98C9.11999 19.54 8.66999 20 8.10999 20H5.81C2.17 20 0 17.83 0 14.18V5.81C0 2.17 2.17 0 5.81 0H14.19C17.83 0 20 2.17 20 5.81V14.19Z" fill="#FF6B00"/>
+             </svg>
+        </div>
+    </header>
+    <section id="spotlight" class="container">
+        <div>
+            <h1 class="fo-nt">Make Every <br>Occasion Memorable</h1>
+            <p class="fnt">with Our Delectable Cakes</p>
+            <h4 class="h4p">Chocolate Lava Cake</h4>
+            <p>A chocolate cake with a molten chocolate center.<br> Serve warm with ice cream or whipped cream.</p>
+            <div class="d-f">
+                <button class="order-btn">Order Now</button>
+                <p><strong>₹ 650</strong></p>
+            </div>
+           
+        </div>
+        <div class="grid">
+            <img class="img-1" src="{% static 'image/Rectangle 1.png' %}" alt="#">
+            <img class="img-2" src="{% static 'image/Rectangle 2.png' %}" alt="#">
+        </div>
+    </section>
+    <section class="container">
+        <h3 class="best">Our best sellers</h3>
+        <nav id="na-v">
+            <ul class="flx">
+                <li><a href="">Cakes</a></li>
+                <li><a href="">Muffins</a></li>
+                <li><a href="">Cup Cakes</a></li>
+                <li><a href="">Pop Sickles</a></li>
+            </ul>
+        </nav>
+        <div class="bord">
+            {% for item in items %}
+                <div class="groove">
+                    <img src="{{ item.image.url }}" alt="">
+                    <p><strong>{{ item.price }}</strong></p>
+                    <p><strong>{{ item.name }}</strong></p>
+                    <p>{{ item.discription }}</p>
+                    <button class="btn"><strong><a href="https://wa.me/qr/GXMALPEUBH3TL1">Order Now,</a></strong></button>
+                </div>
+            {% endfor %}
+a            <!-- <div class="groove">
+                <img src="{% static 'image/Rectangle 4-1.png' %}" alt="">
+                <p><strong>₹ 650</strong></p>
+                <p><strong>Red Velvet Cake</strong></p>
+                <p>A moist and fluffy cake with a deep red color and a tangy cream cheese frosting.</p>
+                <button class="btn"><strong>Order Now</strong></button>
+            </div>
+            <div class="groove">
+                <img src="{% static 'image/Rectangle 4-2.png' %}" alt="">
+                <p><strong>₹ 500</strong></p>
+                <p><strong>Strawberry Cake</strong></p>
+                <p>A delicate and moist cake with fresh strawberries and a fluffy whipped cream frosting.</p>
+                <button class="btn"><strong>Order Now</strong></button>
+           </div>
+           <div class="groove">
+                <img src="{% static 'image/Rectangle 4 (1).png' %}" alt="">
+                <p><strong>₹ 500</strong></p>
+                <p><strong>Black Forest Cake</strong></p>
+                <p>A decadent chocolate cake with layers of whipped cream and cherry filling, garnished with chocolate shavings.</p>
+                <button class="btn"><strong>Order Now</strong></button>
+           </div> -->
+        </div>
+        </div>
+    </section>
+    <section class="back-g">
+        <div class="star">
+            <div>
+                <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.583 4.23657C15.043 0.768722 19.957 0.76872 21.417 4.23656L23.4252 9.00647C24.008 10.3907 25.1093 11.492 26.4935 12.0748L31.2634 14.083C34.7313 15.543 34.7313 20.457 31.2634 21.917L26.4935 23.9252C25.1093 24.508 24.008 25.6093 23.4252 26.9935L21.417 31.7634C19.957 35.2313 15.043 35.2313 13.583 31.7634L11.5748 26.9935C10.992 25.6093 9.89072 24.508 8.50648 23.9252L3.73657 21.917C0.268722 20.457 0.26872 15.543 3.73656 14.083L8.50647 12.0748C9.89072 11.492 10.992 10.3907 11.5748 9.00648L13.583 4.23657Z" stroke="black" stroke-width="1.5"/>
+                </svg>
+            </div>
+            <div>
+                <h1>Why people love Sugar Bubble cakes</h1>
+            </div>
+            <div>
+                <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.583 4.23657C15.043 0.768722 19.957 0.76872 21.417 4.23656L23.4252 9.00647C24.008 10.3907 25.1093 11.492 26.4935 12.0748L31.2634 14.083C34.7313 15.543 34.7313 20.457 31.2634 21.917L26.4935 23.9252C25.1093 24.508 24.008 25.6093 23.4252 26.9935L21.417 31.7634C19.957 35.2313 15.043 35.2313 13.583 31.7634L11.5748 26.9935C10.992 25.6093 9.89072 24.508 8.50648 23.9252L3.73657 21.917C0.268722 20.457 0.26872 15.543 3.73656 14.083L8.50647 12.0748C9.89072 11.492 10.992 10.3907 11.5748 9.00648L13.583 4.23657Z" stroke="black" stroke-width="1.5"/>
+                </svg>
+            </div>
+        </div>
+        <div class="flw">
+            <p class="sugar">Why people love Sugar Bubble cakes
+                Sugar Bubble made a stunning unicorn cake for my daughter's party. Rainbow layers and a cute fondant unicorn. My daughter was thrilled. The cake was yummy and moist. Sugar Bubble is the best!</p>
+        </div>
+        <h1 class="mary">-mary</h1>
+    </section>
+    <section class="abo-ut container">
+        <h1>About us</h1>
+        <p>Sugar Bubble is a cake shop that makes you happy. We are a team of bakers who love to create amazing cakes for any occasion. We use fresh and quality ingredients and bake everything from scratch. We can customize your cake with any flavor, filling, frosting, and decoration you want. Our cakes are delicious and beautiful. We offer online ordering, delivery, and free consultations and tastings. Come and visit us today and see why we are the best cake shop in town.</p>
+    </section>
+    <footer>
+        <div class="print">
+            <div class="vpic">
+                <img id="mm" src="{% static 'image/Vector 3 (1).svg' %}" alt="Vector">
+            </div>
+            <div class="bg">
+                <h3>Upto 20% offer</h3>
+                <p>On online order for Occasional and Corporate events</p>
+                <button class="onow">Order Now</button>
+            </div>
+        </div>
+        <div  class="bubble container">
+            <div class="none">
+                <h1 class="col">Sugar Bubble</h1>
+                <p class="baking">Baking your<br> dreams come true.</p>
+                <div>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.19 0H5.81C2.17 0 0 2.17 0 5.81V14.18C0 17.83 2.17 20 5.81 20H14.18C17.82 20 19.99 17.83 19.99 14.19V5.81C20 2.17 17.83 0 14.19 0ZM10 13.88C7.86 13.88 6.12 12.14 6.12 10C6.12 7.86 7.86 6.12 10 6.12C12.14 6.12 13.88 7.86 13.88 10C13.88 12.14 12.14 13.88 10 13.88ZM15.92 4.88C15.87 5 15.8 5.11 15.71 5.21C15.61 5.3 15.5 5.37 15.38 5.42C15.26 5.47 15.13 5.5 15 5.5C14.73 5.5 14.48 5.4 14.29 5.21C14.2 5.11 14.13 5 14.08 4.88C14.03 4.76 14 4.63 14 4.5C14 4.37 14.03 4.24 14.08 4.12C14.13 3.99 14.2 3.89 14.29 3.79C14.52 3.56 14.87 3.45 15.19 3.52C15.26 3.53 15.32 3.55 15.38 3.58C15.44 3.6 15.5 3.63 15.56 3.67C15.61 3.7 15.66 3.75 15.71 3.79C15.8 3.89 15.87 3.99 15.92 4.12C15.97 4.24 16 4.37 16 4.5C16 4.63 15.97 4.76 15.92 4.88Z" fill="#FF6B00"/>
+                    </svg>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 14.19C20 17.83 17.83 20 14.19 20H13C12.45 20 12 19.55 12 19V13.23C12 12.96 12.22 12.73 12.49 12.73L14.25 12.7C14.39 12.69 14.51 12.59 14.54 12.45L14.89 10.54C14.92 10.36 14.78 10.19 14.59 10.19L12.46 10.22C12.18 10.22 11.96 10 11.95 9.73001L11.91 7.28C11.91 7.12 12.04 6.98001 12.21 6.98001L14.61 6.94C14.78 6.94 14.91 6.81001 14.91 6.64001L14.87 4.23999C14.87 4.06999 14.74 3.94 14.57 3.94L11.87 3.98001C10.21 4.01001 8.89001 5.37 8.92001 7.03L8.97 9.78C8.98 10.06 8.76001 10.28 8.48001 10.29L7.28 10.31C7.11 10.31 6.98001 10.44 6.98001 10.61L7.01001 12.51C7.01001 12.68 7.14 12.81 7.31 12.81L8.51001 12.79C8.79001 12.79 9.00999 13.01 9.01999 13.28L9.10999 18.98C9.11999 19.54 8.66999 20 8.10999 20H5.81C2.17 20 0 17.83 0 14.18V5.81C0 2.17 2.17 0 5.81 0H14.19C17.83 0 20 2.17 20 5.81V14.19Z" fill="#FF6B00"/>
+                    </svg>
+                </div>
+            </div>
+            <div>
+                <h2 class="get">Get in touch</h2>
+                <p class="qof">Question or feedback ? We'd love to here from you</p>
+                <div class="textmail">
+                    <input type="text" class="mail" placeholder="email">
+                    <div>
+                        <i class="fa-solid fa-paper-plane" style="color: #ff7b00;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="none">
+                <h1 class="link"><strong>Quick Links</strong></h1>
+                <nav class="foot">
+                    <ul>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+    </footer>
+    <script src="{% static 'script.js' %}"></script>
+</body>
+</html>

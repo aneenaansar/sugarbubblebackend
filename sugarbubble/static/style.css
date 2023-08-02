@@ -1,0 +1,470 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@font-face {
+    font-family: 'bonny';
+    src: url(./font/Bonny-Variable.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ header a{
+    text-decoration: none;
+    color: black;
+}
+#sty-le ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.h{
+    color: #FF6B00;
+    font-family: 'bonny';
+    font-size: 2rem;
+}
+.container{
+    padding: 1rem 5rem;
+}
+.fo-nt{
+    font-family: 'bonny';
+    font-size: 6rem;
+    font-weight: 600;
+}
+.fnt{
+    font-family: 'bonny';
+    font-size: 6rem;
+}
+.d-f{
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    margin-top: 2%;
+}
+.d-f p{
+    font-size: 3rem;
+}
+.order-btn{
+    background-color: #FF6B00;
+    color: white;
+    border: 0;
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    border-radius: 3rem;
+    transition:.3s;
+    
+}
+.order-btn:hover{
+    color: #000000;
+    background: white;
+    border: 2px solid #FF6B00;
+}
+.img-2{
+    position: absolute;
+    width: 511.5px;
+    height: 641.13px;
+    left: 1141px;
+    top: 111.98px;
+}
+.img-1{
+    position: absolute;
+    left: 1216.1px;
+    top: 172.6px;
+    width: 371.5px;
+    z-index: 1;
+    height: 481.13px;
+}
+#spotlight{
+    margin-top: 7%;
+}
+.h4p{
+    margin-top: 3%;
+    font-size: 3rem;
+}
+.best{
+    display: flex;
+    justify-content: center;
+    font-family: 'bonny';
+    font-size: 2rem;
+    margin-top: 7%;
+}
+#na-v li{
+    list-style: none;
+}
+#na-v a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif
+}
+.flx{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 3%;
+}
+.bord{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.groove{
+    border-style: groove;
+    text-align: center;
+    height: 474px;
+    width: 284px;
+    padding-top: 25px;
+    font-size: 1.5rem;
+    border-color: black;
+    border-radius: 3%;
+}
+.btn{
+    background-color: #FF6B00;
+    color: white;
+    border: 0;
+    padding-top: 3%;
+    text-align: center;
+    padding-left: 32%;
+    padding-right: 32%;
+    padding-bottom: 3%;
+    border-radius: 1rem;
+    margin-top: 5%;
+    font-family: 'bonny';
+}
+.btn:hover{
+    color: #000000;
+    background: white;
+    border: 2px solid #FF6B00;
+}
+.jav{
+    display: none !important;
+}
+
+#icon5{
+    position: absolute;
+    height: 150pv;
+    width: 1030px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+    align-items: left;
+    margin-top: 100px;
+    line-height: 2;
+    font-family:sans-serif;    
+    display: block;
+}
+#icon5 li{
+    list-style: none;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    font-family: 'bonny';
+}
+.mary{
+    margin-top: 1%;
+}
+.x-none{
+    width: 330px !important;
+}
+.back-g{
+    background-color: #FFF3EA;
+    text-align: center;
+    margin-top: 122px;
+    padding-top: 122px;
+    padding-bottom: 122px;
+}
+.sugar{
+    max-width: 500px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1%;
+    font-weight: 600;
+}
+.flw{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.abo-ut{
+    text-align: center;
+    margin-top: 9%;
+    margin-bottom: 139px;
+}
+.abo-ut h1{
+    font-family: 'bonny';
+}
+.abo-ut p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 3%;
+}
+.print{
+    background-color: #FF6B00;
+}
+#mm{
+    width: 100%;
+    margin-top:-41px;
+}
+.bg{
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
+.bg h3{
+    font-family: 'bonny'; 
+    font-size: 2.5rem;
+}
+.bg p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.onow{
+    border-style: groove;
+    border-color: white;
+    width: 215px;
+    height: 43px;
+    border: 0;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    font-family: 'bonny';
+    color: #FF6B00;
+    transition: .2s;
+}
+.onow:hover{
+    color: white;
+    background: #FF6B00;
+    border: 2px solid white;
+}
+.bubble{
+    display: flex;
+    justify-content: space-between;
+    background: #FFF3EA;
+}
+.col{
+    color: #FF6B00;
+    font-family: 'bonny';
+}
+.baking{
+    font-size: 1.3rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.get{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.qof{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.textmail{
+    display: flex;
+    width: 100%;
+    padding: 9px;
+    border: 2px solid orange;
+    border-radius: 20px;
+}
+.mail{
+    border: 0px solid;
+    height: 26px;
+    outline: none;
+    width: 83%;
+}
+.foot{
+    margin-top: 8%;
+    line-height: 191%;
+    text-align: center;
+}
+.foot li{
+    list-style: none;
+}
+.foot a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif
+}
+.link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.span{
+    display: none;
+}
+.follow{
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;;
+    height: 700px;
+    /* width: 330px; */
+    /* overflow: hidden; */
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+    align-items: left;
+    margin-top: 100px;
+    line-height: 2;
+    transition: width .4s ease;
+}
+.follow ul{
+    list-style: none;
+}
+.follow h1{
+    color: #FF6B00;
+    margin-bottom: 40%;
+}
+.muff a{
+    color: #FF6B00;
+}
+.muff{
+    margin-bottom: 10%;
+}
+.us{
+    margin-top: 60%;
+}
+.i-5{
+    display: flex;
+}
+
+
+/* here starts responsive */
+
+@media screen and (max-width:800px){
+    #sty-le{
+        display: none;
+    }
+    .ic{
+        display: none;
+    }
+    .span{
+        display: block;
+    }
+    .fo-nt{
+        font-size: 43px;
+        text-align: center;
+    }.follow{
+        display: block;
+        position: absolute;
+        background-color: #FFFFFF;;
+        height: 700px;
+        width: 0;
+        overflow: hidden;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+        align-items: left;
+        margin-top: 100px;
+        line-height: 2;
+    }
+    .follow ul{
+        list-style: none;
+    }
+    .follow h1{
+        color: #FF6B00;
+        margin-bottom: 40%;
+    }
+    .muff a{
+        color: #FF6B00;
+    }
+    .muff{
+        margin-bottom: 10%;
+    }
+    .us{
+        margin-top: 60%;
+    }
+    .i-5{
+        display: flex;
+    }
+}
+    
+    
+    /* here starts responsive */
+    
+    @media screen and (max-width:800px){
+        #sty-le{
+            display: none;
+        }
+        .ic{
+            display: none;
+        }
+        .span{
+            display: block;
+        }
+        .fo-nt{
+            font-size: 43px;
+            text-align: center;
+        }
+        .fnt{
+            font-size: 30px;
+            text-align: center;
+        }
+        .h4p{
+            font-size: 2rem;
+            margin-top: 504px;
+        }
+        .img-1{
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            left: 95px;
+            top: 448px;
+        }
+        .img-2{
+            position: absolute;
+            left: 42px;
+            top: 417px;
+            width: 76%;
+            height: 64%;
+        }
+        .bord{
+            display: grid;
+        }
+        .groove{
+            width: auto;
+            height: auto;
+            margin-top: 15%;
+        }
+        .back-g{
+            align-items: center;
+            
+        }
+        .best{
+            margin-top: -91%;
+        }
+        .none{
+            display: none;
+        }
+        #mm{
+            margin-top: -3%;
+        }
+        
+        .grid{
+            margin-top: 100%;
+        }
+        .flx{
+            text-align: center;
+            font-size: 70%;
+            gap: 10%;
+        }
+    }
